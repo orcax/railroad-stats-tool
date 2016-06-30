@@ -30,4 +30,5 @@ def estimate():
     return jsonify(data=result)
 
 if __name__ == "__main__":
-    app.run(host="172.30.31.152")
+    #app.run(host="172.30.31.152")
+    app.run(host="0.0.0.0")
